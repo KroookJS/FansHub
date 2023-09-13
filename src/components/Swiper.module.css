@@ -18,9 +18,10 @@ span {
 }
 
 .containerTitle {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   z-index: inherit;
-  bottom: 96px;
+  bottom: 103px;
   left: 11px;
   display: flex;
   align-items: center;

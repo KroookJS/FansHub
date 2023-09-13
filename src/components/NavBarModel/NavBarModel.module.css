@@ -1,12 +1,12 @@
 .navBarModelConrainer {
   color: wheat;
-  height: 70px;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 400px;
   position: fixed;
-  bottom: 10px;
+  bottom: 7px;
   /* left: 1%; */
   /* background: #192033; */
   background: #19203261;
