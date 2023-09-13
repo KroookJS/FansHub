@@ -1,4 +1,46 @@
+/* .containerVideo {
+  position: absolute;
+}
+
+ */
+p {
+  font-weight: 400;
+  color: white;
+}
+span {
+  font-weight: 300;
+  color: #fff8;
+}
+
 .videoItem {
   position: relative;
   z-index: 1;
+}
+
+.containerTitle {
+  position: absolute;
+  z-index: inherit;
+  bottom: 96px;
+  left: 11px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 10px;
+
+  max-width: 300px;
+  border: 1px solid;
+  padding: 4px 14px;
+  border-radius: 20px;
+  background: #00000096;
+
+  box-shadow: 0 4px 44px rgb(255 244 244 / 35%);
+}
+
+.avatar {
+  position: relative;
+  bottom: 0;
+  width: 56px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
 }
